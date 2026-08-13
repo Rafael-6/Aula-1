@@ -1,0 +1,150 @@
+* {
+   margin: 0;
+   padding: 0;
+   
+   box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #797777;
+    color:#495057;
+    padding: 20px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 25px;
+    border: 1px solid #46494c;
+    margin-bottom: 5px;
+}
+
+.cabecalho h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.cabecalho p {
+    font-size: 15px;
+    color: #666;
+}
+
+.menu {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #46494c;
+    margin-bottom: 15px;
+}
+
+.menu h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.links-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.links-menu a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #46494c;
+    padding: 7px 30px;
+    font-size: 14px;
+}
+
+.links-menu a:hover {
+    background-color: #eeeeee;
+    color: #4884c0;
+}
+
+.conteudo {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.livros {
+   width: 500px;
+   height: 300px;
+    border: 1px solid #46494c;
+    padding: 25px;
+}
+
+.livros li {
+     display: block;
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #46494c;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.cadastro {
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 500px;
+   height: 300px;   
+    border: 1px solid #46494c;
+    padding: 20px;
+}
+
+.cadastro label {
+    display: block;
+    font-size: 14px;
+    color: #495057;
+    margin-bottom: 2px
+}
+
+
+.cadastro input {
+    display: block;
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #46494c;
+    border-radius: 4px;
+}
+
+.cadastro button {
+  display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 15px;       
+    background-color: white;
+    border: 1px solid #46494c;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+
+
+
+.rodape {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #46494c;
+}
+
+.rodape h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.rodape p {
+    font-size: 13px;
+    color: #666;
+}
